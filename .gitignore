@@ -1,0 +1,12 @@
+# Ambiente Python do NotebookLM (não versionar)
+.nblm-venv/
+# CREDENCIAIS — NUNCA versionar (cookies de sessão do Google = acesso à conta)
+storage_state.json
+**/storage_state.json
+.notebooklm/
+*auth*.json
+NOTEBOOKLM_AUTH_JSON*
+# Diversos
+__pycache__/
+*.pyc
+.DS_Store
